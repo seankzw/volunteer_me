@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_back_arrow"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <ImageView
+        android:id="@+id/displayPicture"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_account_circle_black_24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:layout_below="@id/displayPicture"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed-medium" />
+
+    <TableLayout
+        android:layout_below="@id/displayPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/nameLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name  :"
+                android:layout_below="@+id/displayPicture"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:hint="Bill Gates"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/emailLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                android:layout_below="@+id/displayPicture"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:hint="mymail@email.com"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/hobbyLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status :"
+                android:layout_below="@+id/displayPicture"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:hint="Don't worry, Be happy"/>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

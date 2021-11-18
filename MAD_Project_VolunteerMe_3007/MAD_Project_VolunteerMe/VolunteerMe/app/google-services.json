@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "669438526382",
+    "firebase_url": "https://volunteerme-f2692.firebaseio.com",
+    "project_id": "volunteerme-f2692",
+    "storage_bucket": "volunteerme-f2692.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669438526382:android:612d350ab512e701",
+        "android_client_info": {
+          "package_name": "edu.nyp.volunteerme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669438526382-c5ac32jj9c124kmavb6p4u77dp1s08g5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.nyp.volunteerme",
+            "certificate_hash": "e16a9cb095057a24f84a041c5460e87320749507"
+          }
+        },
+        {
+          "client_id": "669438526382-ahvbc9djv9k9rivlckg57svvi4kojo22.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.nyp.volunteerme",
+            "certificate_hash": "266fb9f0f713d7be89d8b840d089746973ee836d"
+          }
+        },
+        {
+          "client_id": "669438526382-rvr7l9hddv38thqf7k9l91hjfrebvkfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp-_AGQNr6vTZcImYFA9rRDaZ-IPhQXoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669438526382-rvr7l9hddv38thqf7k9l91hjfrebvkfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
