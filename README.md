@@ -1,9 +1,7 @@
 ## NYP Year 3 Project
 Mobile App Development.
 
-# What is it for ?
-
-Objective of the app: 
+# Objective 
 - To ease everyone to get the up-to-date community events happening around Singapore.
 - Allow users to post in the forum, whenever they need help in their life.
   - For example : Son is in need of a blood donor. 
